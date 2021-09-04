@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <!-- Transitions -->
+    <Transition
+        android:id="@+id/transitionAtoG"
+        motion:constraintSetEnd="@id/constraintG"
+        motion:constraintSetStart="@id/constraintA" />
+
+    <Transition
+        android:id="@+id/transitionGtoA"
+        motion:constraintSetEnd="@id/constraintA"
+        motion:constraintSetStart="@id/constraintG" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintO"
+        motion:constraintSetStart="@id/constraintP" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintP"
+        motion:constraintSetStart="@id/constraintO" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintG"
+        motion:constraintSetStart="@id/constraintB" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintO"
+        motion:constraintSetStart="@id/constraintQ" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintS"
+        motion:constraintSetStart="@id/constraintG" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintG"
+        motion:constraintSetStart="@id/constraintS" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintO"
+        motion:constraintSetStart="@id/constraintT" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintT"
+        motion:constraintSetStart="@id/constraintO" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintH"
+        motion:constraintSetStart="@id/constraintA" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintI"
+        motion:constraintSetStart="@id/constraintG" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintJ"
+        motion:constraintSetStart="@id/constraintS" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintL"
+        motion:constraintSetStart="@id/constraintP" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintK"
+        motion:constraintSetStart="@id/constraintT" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintA" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintG" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintS" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintM" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintN" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintO" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintP" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintT" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintH" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintJ" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintI" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintL" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintK" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintD" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintR"
+        motion:constraintSetStart="@id/constraintD" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintC"
+        motion:constraintSetStart="@id/constraintA" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintD"
+        motion:constraintSetStart="@id/constraintG" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintD"
+        motion:constraintSetStart="@id/constraintS" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintC"
+        motion:constraintSetStart="@id/constraintB" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintM"
+        motion:constraintSetStart="@id/constraintA" />
+
+    <Transition
+        motion:constraintSetEnd="@id/constraintM"
+        motion:constraintSetStart="@id/constraintN" />
+
+
+    <!-- ConstraintSets -->
+    <ConstraintSet android:id="@+id/constraintA" />
+
+    <ConstraintSet
+        android:id="@+id/constraintB"
+        motion:deriveConstraintsFrom="@id/constraintA" />
+
+    <ConstraintSet
+        android:id="@+id/constraintC"
+        motion:deriveConstraintsFrom="@id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintD"
+        motion:deriveConstraintsFrom="@id/constraintC" />
+
+    <ConstraintSet
+        android:id="@+id/constraintE"
+        motion:deriveConstraintsFrom="@id/constraintC" />
+
+    <ConstraintSet
+        android:id="@+id/constraintF"
+        motion:deriveConstraintsFrom="@id/constraintD" />
+
+    <ConstraintSet
+        android:id="@+id/constraintG"
+        motion:deriveConstraintsFrom="@id/constraintA" />
+
+    <ConstraintSet
+        android:id="@+id/constraintH"
+        motion:deriveConstraintsFrom="@id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintI"
+        motion:deriveConstraintsFrom="@+id/constraintH" />
+
+    <ConstraintSet
+        android:id="@+id/constraintJ"
+        motion:deriveConstraintsFrom="@+id/constraintH" />
+
+    <ConstraintSet
+        android:id="@+id/constraintK"
+        motion:deriveConstraintsFrom="@+id/constraintL" />
+
+    <ConstraintSet
+        android:id="@+id/constraintL"
+        motion:deriveConstraintsFrom="@+id/constraintH" />
+
+    <ConstraintSet
+        android:id="@+id/constraintM"
+        motion:deriveConstraintsFrom="@+id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintN"
+        motion:deriveConstraintsFrom="@+id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintO"
+        motion:deriveConstraintsFrom="@+id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintP"
+        motion:deriveConstraintsFrom="@id/constraintA" />
+
+    <ConstraintSet
+        android:id="@+id/constraintQ"
+        motion:deriveConstraintsFrom="@id/constraintB" />
+
+    <ConstraintSet
+        android:id="@+id/constraintR"
+        motion:deriveConstraintsFrom="@id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintS"
+        motion:deriveConstraintsFrom="@id/constraintG" />
+
+    <ConstraintSet
+        android:id="@+id/constraintT"
+        motion:deriveConstraintsFrom="@id/constraintO" />
+
+</MotionScene>
